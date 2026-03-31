@@ -23,7 +23,7 @@ function signupUser(){
     }
 
     alert("SignUp Successful")
-    window.location.pathname = "/index.html"
+    window.location.pathname = "/login-signup-using-local-storage/index.html"
         
 
     
@@ -63,7 +63,7 @@ function loginUser(){
 
         if(currentUser.password == loginPassword){
             alert("Login Successful")
-            window.location.pathname = "/dashboard.html"
+            window.location.pathname = "/login-signup-using-local-storage/dashboard.html"
         }
         else{
             alert("Password did not matched")
