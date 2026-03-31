@@ -23,7 +23,7 @@ function signupUser(){
     }
 
     alert("SignUp Successful")
-    window.location.pathname = "/C:/Users/Shayan.DESKTOP-UTQK6M5/Desktop/LOGIN%20SIGNUP%20using%20Local%20Storage/index.html"
+    window.location.pathname = "/index.html"
         
 
     
@@ -63,7 +63,7 @@ function loginUser(){
 
         if(currentUser.password == loginPassword){
             alert("Login Successful")
-            window.location.pathname = "/C:/Users/Shayan.DESKTOP-UTQK6M5/Desktop/LOGIN%20SIGNUP%20using%20Local%20Storage/dashboard.html"
+            window.location.pathname = "/dashboard.html"
         }
         else{
             alert("Password did not matched")
@@ -71,7 +71,7 @@ function loginUser(){
 
     }
     else{
-        alert("Account Nor Register With This Email")
+        alert("Account Not Register With This Email")
     }
 
 
